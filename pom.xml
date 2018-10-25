@@ -391,9 +391,9 @@
 		<module>kitchensink-angularjs</module>
 	    </modules>
         </profile>
-        <profile>
+        <!--<profile>-->
             <!-- All the quickstarts that require Postgres to be running -->
-            <id>requires-postgres</id>
+            <!--<id>requires-postgres</id>
             <activation>
                 <activeByDefault>true</activeByDefault>
                 <property>
@@ -405,9 +405,9 @@
                 <module>jts</module>
             </modules>
         </profile>
-        <profile>
+        <profile>-->
             <!-- All the quickstarts that have weird requirements around deployment that Maven can't handle -->
-            <id>complex-dependencies</id>
+            <!--<id>complex-dependencies</id>
             <activation>
                 <activeByDefault>true</activeByDefault>
                 <property>
@@ -420,11 +420,11 @@
                 <module>resteasy-jaxrs-client</module>
                 <module>jts</module>
             </modules>
-        </profile>
-        <profile>
+        </profile>-->
+        <!--<profile>-->
             <!-- All the quickstarts that require the "standalone-full" profile
                 to be in use -->
-            <id>requires-full</id>
+            <!--<id>requires-full</id>
             <activation>
                 <activeByDefault>true</activeByDefault>
                 <property>
@@ -438,7 +438,7 @@
                 <module>helloworld-mdb-propertysubstitution</module>
                 <module>jta-crash-rec</module>
             </modules>
-        </profile>
+        </profile>-->
         <profile>
             <!-- All the quickstarts that require the xts to be enabled -->
             <id>requires-xts</id>
