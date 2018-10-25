@@ -439,9 +439,9 @@
                 <module>jta-crash-rec</module>
             </modules>
         </profile>-->
-        <profile>
+        <!--<profile>-->
             <!-- All the quickstarts that require the xts to be enabled -->
-            <id>requires-xts</id>
+            <!--<id>requires-xts</id>
             <activation>
                 <activeByDefault>true</activeByDefault>
                 <property>
@@ -454,7 +454,7 @@
                 <module>wsba-coordinator-completion-simple</module>
                 <module>wsba-participant-completion-simple</module>
             </modules>
-        </profile>
+        </profile>-->
         <profile>
             <id>functional-tests</id>
             <modules>
