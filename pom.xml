@@ -390,6 +390,7 @@
                 <module>kitchensink</module>
 		<module>kitchensink-angularjs</module>
 	    </modules>
+        </profile>
         <profile>
             <!-- All the quickstarts that require Postgres to be running -->
             <id>requires-postgres</id>
