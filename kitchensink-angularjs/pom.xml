@@ -22,7 +22,7 @@
         <groupId>org.jboss.eap.quickstarts</groupId>
         <artifactId>quickstart-parent</artifactId>
         <version>7.1.0.GA</version>
-        <relativePath>../pom.xml</relativePath>
+        <relativePath>../jboss-eap-quickstart-demo/pom.xml</relativePath>
     </parent>
     <artifactId>kitchensink-angularjs</artifactId>
     <packaging>war</packaging>
