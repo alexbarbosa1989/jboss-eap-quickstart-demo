@@ -388,85 +388,88 @@
                 <!-- All the modules that require nothing but JBoss Enterprise
                     Application Platform or JBoss EAP -->
                 <module>kitchensink</module>
-		<module>kitchensink-angularjs</module>
+                <module>kitchensink-angularjs</module>
+                <module>kitchensink-ear</module>
+                <module>kitchensink-html5-mobile</module>
+                <module>kitchensink-jsp</module>
 	    </modules>
         </profile>
-        <!--<profile>-->
-            <!-- All the quickstarts that require Postgres to be running -->
-            <!--<id>requires-postgres</id>
-            <activation>
-                <activeByDefault>true</activeByDefault>
-                <property>
-                    <name>requires-postgres</name>
-                    <value>!disabled</value>
-                </property>
-            </activation>
-            <modules>
-                <module>jts</module>
-            </modules>
-        </profile>
-        <profile>-->
-            <!-- All the quickstarts that have weird requirements around deployment that Maven can't handle -->
-            <!--<id>complex-dependencies</id>
-            <activation>
-                <activeByDefault>true</activeByDefault>
-                <property>
-                    <name>complex-dependencies</name>
-                    <value>!disabled</value>
-                </property>
-            </activation>
-            <modules>
-                <module>ejb-remote</module>
-                <module>resteasy-jaxrs-client</module>
-                <module>jts</module>
-            </modules>
-        </profile>-->
-        <!--<profile>-->
-            <!-- All the quickstarts that require the "standalone-full" profile
-                to be in use -->
-            <!--<id>requires-full</id>
-            <activation>
-                <activeByDefault>true</activeByDefault>
-                <property>
-                    <name>requires-full</name>
-                    <value>!disabled</value>
-                </property>
-            </activation>
-            <modules>
-                <module>helloworld-mbean</module>
-                <module>helloworld-mdb</module>
-                <module>helloworld-mdb-propertysubstitution</module>
-                <module>jta-crash-rec</module>
-            </modules>
-        </profile>-->
-        <!--<profile>-->
-            <!-- All the quickstarts that require the xts to be enabled -->
-            <!--<id>requires-xts</id>
-            <activation>
-                <activeByDefault>true</activeByDefault>
-                <property>
-                    <name>requires-xts</name>
-                    <value>!disabled</value>
-                </property>
-            </activation>
-            <modules>
-                <module>wsat-simple</module>
-                <module>wsba-coordinator-completion-simple</module>
-                <module>wsba-participant-completion-simple</module>
-            </modules>
-        </profile>-->
+<!--         <profile> -->
+<!--             All the quickstarts that require Postgres to be running -->
+<!--             <id>requires-postgres</id> -->
+<!--             <activation> -->
+<!--                 <activeByDefault>true</activeByDefault> -->
+<!--                 <property> -->
+<!--                     <name>requires-postgres</name> -->
+<!--                     <value>!disabled</value> -->
+<!--                 </property> -->
+<!--             </activation> -->
+<!--             <modules> -->
+<!--                 <module>jts</module> -->
+<!--             </modules> -->
+<!--         </profile> -->
+<!--         <profile> -->
+<!--             All the quickstarts that have weird requirements around deployment that Maven can't handle -->
+<!--             <id>complex-dependencies</id> -->
+<!--             <activation> -->
+<!--                 <activeByDefault>true</activeByDefault> -->
+<!--                 <property> -->
+<!--                     <name>complex-dependencies</name> -->
+<!--                     <value>!disabled</value> -->
+<!--                 </property> -->
+<!--             </activation> -->
+<!--             <modules> -->
+<!--                 <module>ejb-remote</module> -->
+<!--                 <module>resteasy-jaxrs-client</module> -->
+<!--                 <module>jts</module> -->
+<!--             </modules> -->
+<!--         </profile> -->
+<!--         <profile>--> 
+<!--             All the quickstarts that require the "standalone-full" profile
+<!--                 to be in use --> 
+<!--             <id>requires-full</id> -->
+<!--             <activation> -->
+<!--                 <activeByDefault>true</activeByDefault> -->
+<!--                 <property> -->
+<!--                     <name>requires-full</name> -->
+<!--                     <value>!disabled</value> -->
+<!--                 </property> -->
+<!--             </activation> -->
+<!--             <modules> -->
+<!--                 <module>helloworld-mbean</module> -->
+<!--                 <module>helloworld-mdb</module> -->
+<!--                 <module>helloworld-mdb-propertysubstitution</module> -->
+<!--                 <module>jta-crash-rec</module> -->
+<!--             </modules> -->
+<!--         </profile> -->
+<!--         <profile> -->
+<!--             All the quickstarts that require the xts to be enabled -->
+<!--             <id>requires-xts</id> -->
+<!--             <activation> -->
+<!--                 <activeByDefault>true</activeByDefault> -->
+<!--                 <property> -->
+<!--                     <name>requires-xts</name> -->
+<!--                     <value>!disabled</value> -->
+<!--                 </property> -->
+<!--             </activation> -->
+<!--             <modules> -->
+<!--                 <module>wsat-simple</module> -->
+<!--                 <module>wsba-coordinator-completion-simple</module> -->
+<!--                 <module>wsba-participant-completion-simple</module> -->
+<!--             </modules> -->
+<!--         </profile> -->
         <profile>
             <id>functional-tests</id>
             <modules>
-                <module>contacts-jquerymobile/functional-tests</module>
-                <module>helloworld-html5/functional-tests</module>
+<!--                 <module>contacts-jquerymobile/functional-tests</module> -->
+<!--                 <module>helloworld-html5/functional-tests</module> -->
                 <module>kitchensink-angularjs/functional-tests</module>
-                <module>spring-greeter/functional-tests</module>
-                <module>spring-kitchensink-basic/functional-tests</module>
-                <module>spring-kitchensink-controlleradvice/functional-tests</module>
-                <module>spring-kitchensink-springmvctest/functional-tests</module>
-                <module>spring-kitchensink-matrixvariables/functional-tests</module>
-                <module>spring-petclinic/functional-tests</module>
+<!--                 <module>spring-greeter/functional-tests</module> -->
+<!--                 <module>spring-kitchensink-basic/functional-tests</module> -->
+<!--                 <module>spring-kitchensink-controlleradvice/functional-tests</module> -->
+<!--                 <module>spring-kitchensink-springmvctest/functional-tests</module> -->
+<!--                 <module>spring-kitchensink-matrixvariables/functional-tests</module> -->
+<!--                 <module>spring-petclinic/functional-tests</module> -->
             </modules>
         </profile>
       
