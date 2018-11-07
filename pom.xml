@@ -425,8 +425,7 @@
 <!--             </modules> -->
 <!--         </profile> -->
 <!--         <profile>--> 
-<!--             All the quickstarts that require the "standalone-full" profile
-<!--                 to be in use --> 
+<!--             All the quickstarts that require the "standalone-full" profile to be in use -->             
 <!--             <id>requires-full</id> -->
 <!--             <activation> -->
 <!--                 <activeByDefault>true</activeByDefault> -->
