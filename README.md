@@ -21,3 +21,9 @@ NOTE: If you want to deploy another module, just replate the name in CONTEXT_DIR
 5- Wait until finished building proces (This action could take several minutes until download all dependencies and build artifacts in the Source-to-Image process)
 
 6- Enjoy!
+
+
+Openshitf is very flexible with the methods to deploy an application. If want to know more about Openshift deployment methods, you can find more in the next links:
+
+- https://blog.openshift.com/multiple-deployment-methods-openshift/
+- https://docs.openshift.com/online/using_images/s2i_images/java.html
