@@ -13,7 +13,7 @@ The following steps could be applied to deploy the project in minishfit. (Tested
 3- Create a new application into the project (In this case the deployed project is kitchensink-angularjs):
 > oc new-app --name=eap-demo registry.access.redhat.com/jboss-eap-7/eap70-openshift~https://github.com/alexbarbosa1989/jboss-eap-quickstart-demo -p SOURCE_REPOSITORY_REF="master" -p CONTEXT_DIR="kitchensink-angularjs"
 
-NOTE: If you want to deploy another module, just replate the name in CONTEXT_DIR parameter.
+NOTE: If you want to deploy another module, just replate the name in CONTEXT_DIR parameter and update the modules section in parent POM.
 
 4- Expose the service, in order to get acceded from web 
 > oc expose svc eap-demo
@@ -27,3 +27,4 @@ Openshitf is very flexible with the methods to deploy an application. If want to
 
 - https://blog.openshift.com/multiple-deployment-methods-openshift/
 - https://docs.openshift.com/online/using_images/s2i_images/java.html
+- https://blog.openshift.com/maven-multi-module-projects-and-openshift/
