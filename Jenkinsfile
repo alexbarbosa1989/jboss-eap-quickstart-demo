@@ -4,7 +4,7 @@ node('maven') {
   // injection of environment variables is not done so set them here...
   def sourceRef = "master"
   def sourceUrl = "https://github.com/alexbarbosa1989/jboss-eap-quickstart-demo"
-  def devProject = "epa-demo"
+  def devProject = "eap-demo"
   def applicationName = "eap-demo"
 
   stage 'build'
