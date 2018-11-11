@@ -28,3 +28,7 @@ Openshitf is very flexible with the methods to deploy an application. If want to
 - https://blog.openshift.com/multiple-deployment-methods-openshift/
 - https://docs.openshift.com/online/using_images/s2i_images/java.html
 - https://blog.openshift.com/maven-multi-module-projects-and-openshift/
+
+
+Tools installation guide:
+- Minishift: https://docs.okd.io/latest/minishift/getting-started/installing.html
