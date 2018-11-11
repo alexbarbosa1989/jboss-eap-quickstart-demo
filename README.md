@@ -32,3 +32,5 @@ Openshitf has several methods to to deploy an application. If want to know more 
 
 Tools installation guide:
 - Minishift: https://docs.okd.io/latest/minishift/getting-started/installing.html
+- Jenkins: https://wiki.jenkins.io/display/JENKINS/Installing+Jenkins+on+Red+Hat+distributions
+
