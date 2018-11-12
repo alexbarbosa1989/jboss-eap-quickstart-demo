@@ -1,4 +1,3 @@
-
 node {
     // define commands 
     def mvnCmd = tool 'M3'
