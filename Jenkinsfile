@@ -20,6 +20,7 @@ node {
     }
     stage('Deploy'){
       sh "rm -rf oc-build && mkdir -p oc-build/deployments"
+      sh "cp kitchensink-angularjs/target/kitchensink-angularjs.war oc-build/deployments/ROOT.war"
       // clean up. keep the image stream
       sh "oc project ${devProject}"
       sh "oc delete bc,dc,svc,route -l application=${applicationName} -n ${devProject}"
