@@ -391,7 +391,7 @@
             <modules>
                 <!-- All the modules that require nothing but JBoss Enterprise
                     Application Platform or JBoss EAP -->
-<!--                 <module>kitchensink</module> -->
+                <module>kitchensink</module>
                 <module>kitchensink-angularjs</module>
 <!--                 <module>kitchensink-ear</module> -->
 <!--                 <module>kitchensink-html5-mobile</module> -->
