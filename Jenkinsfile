@@ -19,6 +19,7 @@ node {
       sh "${mvnCmd}/bin/mvn -f pom.xml test"
     }
     stage('Deploy'){
+      sh "rm -rf oc-build && mkdir -p oc-build/deployments"
       // clean up. keep the image stream
       sh "oc project ${devProject}"
       sh "oc delete bc,dc,svc,route -l application=${applicationName} -n ${devProject}"
