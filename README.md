@@ -11,7 +11,11 @@ The following steps could be applied to deploy the project in minishfit. (Tested
 > oc new-project eap-demo
 
 3- Create a new application into the project (In this case the deployed project is kitchensink-angularjs):
+(Using eap7 image)
 > oc new-app --name=eap-demo registry.access.redhat.com/jboss-eap-7/eap70-openshift~https://github.com/alexbarbosa1989/jboss-eap-quickstart-demo.git -p SOURCE_REPOSITORY_REF="master" -p CONTEXT_DIR="kitchensink-angularjs"
+
+(Using wildfly image)
+> oc new-app --name=eap-demo openshift/wildfly-120-centos7~https://github.com/alexbarbosa1989/jboss-eap-quickstart-demo.git  -p SOURCE_REPOSITORY_REF="master" -p CONTEXT_DIR="kitchensink-angularjs"
 
 NOTE: If you want to deploy another module, just replate the name in CONTEXT_DIR parameter and update the modules section in parent POM.
 
