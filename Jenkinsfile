@@ -29,7 +29,7 @@ node {
       // build image
       sh "oc start-build ${applicationName} --from-dir=oc-build --wait=true -n ${devProject}"
       // deploy image
-      sh "oc new-app ${applicationName}:latest -n ${devProject}"
-      sh "oc expose svc/${applicationName} -n ${devProject}"
+      //sh "oc new-app ${applicationName}:latest -n ${devProject}"
+      //sh "oc expose svc/${applicationName} -n ${devProject}"
     }
 }
